@@ -1,6 +1,6 @@
 package com.torneo;
 
-public class Jugador implements iJugador, IImprimible {
+public class Jugador implements IJugador, IImprimible {
     private String name;
     private int numero;
     private String value;

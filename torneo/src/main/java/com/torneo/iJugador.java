@@ -1,6 +1,6 @@
 package com.torneo;
 
-public interface iJugador {
+public interface IJugador {
    
     public String getName();
 

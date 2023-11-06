@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import com.torneo.Jugador;
-import com.torneo.iJugador;
+import com.torneo.IJugador;
 import com.torneo.Equipo;
 
 public class PlantelTest { //Ejercicio 4.4: Jugadores del Plantel (imprimir)... Interfaces
@@ -14,9 +14,9 @@ public class PlantelTest { //Ejercicio 4.4: Jugadores del Plantel (imprimir)... 
 
 
         Equipo boca = new Equipo("Boca Juniors", "BOC"); 
-        iJugador jugadorBoca6 = new Jugador("Marcos Rojo", 6);
-        iJugador jugadorBoca10 = new Jugador("Edinson Cavani", 10);
-        iJugador jugadorBoca19 = new Jugador("Valentin Barco", 19);
+        IJugador jugadorBoca6 = new Jugador("Marcos Rojo", 6);
+        IJugador jugadorBoca10 = new Jugador("Edinson Cavani", 10);
+        IJugador jugadorBoca19 = new Jugador("Valentin Barco", 19);
        
         //Agregamos en diferente al orden numerico de la camiseta
         boca.agregar(jugadorBoca6);        

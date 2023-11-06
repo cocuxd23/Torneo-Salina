@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Equipo implements IImprimible{
     private String name;
     private String abreviatura;
-    private List<iJugador> jugadores;
+    private List<IJugador> jugadores;
 
     public Equipo(String name, String abreviatura) {
         this.name = name;
@@ -26,23 +26,23 @@ public class Equipo implements IImprimible{
         return abreviatura;
     }
     
-    public void agregar(iJugador jugadorBoca6) {
+    public void agregar(IJugador jugadorBoca6) {
         jugadores.add(jugadorBoca6);
     }
 
     public int jugadoresCantidad() {
         return jugadores.size();
     }
-    public List<iJugador> getJugadores() {
+    public List<IJugador> getJugadores() {
         return jugadores;
     }
 
-    public void setJugadores(List<iJugador> jugadores) {
+    public void setJugadores(List<IJugador> jugadores) {
         this.jugadores = jugadores;
     }
 
-    public iJugador obtenerJugador(int numero) {
-        for (iJugador jugador : jugadores) {
+    public IJugador obtenerJugador(int numero) {
+        for (IJugador jugador : jugadores) {
             if (jugador.getNumero() == numero) {
                 return jugador;
             }

@@ -9,7 +9,7 @@ import com.torneo.Partido;
 import com.torneo.TarjetaAmarilla;
 import com.torneo.TarjetaRoja;
 import com.torneo.Var;
-import com.torneo.iJugador;
+import com.torneo.IJugador;
 
 public class TarjetasEquipo {  //Ejercicio 4.5: Cantidad de tarjetas por Equipo
      @Test
@@ -18,9 +18,9 @@ public class TarjetasEquipo {  //Ejercicio 4.5: Cantidad de tarjetas por Equipo
         Equipo boca = new Equipo("Boca Juniors", "BOC");        
         Equipo palmeiras = new Equipo("Palmeiras", "PAL");        
        
-        iJugador jugadorBoca6 = new Jugador("Marcos Rojo", 6);
-        iJugador jugadorBoca10 = new Jugador("Edinson Cavani", 10);  
-        iJugador jugadorBoca19 = new Jugador("Valentin Barco", 19);
+        IJugador jugadorBoca6 = new Jugador("Marcos Rojo", 6);
+        IJugador jugadorBoca10 = new Jugador("Edinson Cavani", 10);  
+        IJugador jugadorBoca19 = new Jugador("Valentin Barco", 19);
 
 
         boca.agregar(jugadorBoca6);            
@@ -28,7 +28,7 @@ public class TarjetasEquipo {  //Ejercicio 4.5: Cantidad de tarjetas por Equipo
         boca.agregar(jugadorBoca19);        
 
 
-        iJugador jugadorPalmeiras10 = new Jugador("Rony", 10);
+        IJugador jugadorPalmeiras10 = new Jugador("Rony", 10);
 
 
         palmeiras.agregar(jugadorPalmeiras10);

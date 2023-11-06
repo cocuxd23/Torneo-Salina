@@ -2,11 +2,11 @@ package com.torneo;
 
 public class TarjetaBase {
     private String color;
-    private iJugador jugador;
+    private IJugador jugador;
 
 
 
-    public TarjetaBase(String color, iJugador jugador) {
+    public TarjetaBase(String color, IJugador jugador) {
         setColor(color);
         setJugador(jugador);
     }
@@ -20,11 +20,11 @@ public class TarjetaBase {
     }
 
     
-    public iJugador getJugador(){
+    public IJugador getJugador(){
         return jugador;
     }
 
-    private void setJugador(iJugador jugador) {
+    private void setJugador(IJugador jugador) {
         this.jugador = jugador;
 
            }
