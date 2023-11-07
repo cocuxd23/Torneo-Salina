@@ -1,8 +1,8 @@
 package com.torneo;
 
-public class Avar extends IntegranteVar{
+public class AVAR extends IntegranteVar{
 
-    public Avar(String name) {
+    public AVAR(String name) {
             super(name);
         }
     
